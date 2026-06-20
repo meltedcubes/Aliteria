@@ -1,1 +1,7 @@
-crashes are expected on such things as rapid execution through communication or injection in the homepage ( inject in a game ), expect a fix tomorrow.
+# Aliteria
+A internal exploit base for Roblox
+
+# Known issues
+A crash when injecting in homepage: inject in a game
+A crash when communication initializes : go to localappdata and delete taskscheduler.txt
+All the issues will be fixed tomorrow
