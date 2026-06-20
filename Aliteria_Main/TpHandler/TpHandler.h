@@ -14,13 +14,11 @@ namespace TpHandler
 
             if ( NewDataModel != CurrentDataModel && NewDataModel )
             {
-                // Wait for GameLoaded == 31
                 while ( NewDataModel->GameLoaded != 31 )
                 {
                     Sleep( 1000 );
                     NewDataModel = Misc::GetDataModel( );
 
-                    // FIXED: Don't return, just keep trying
                     if ( !NewDataModel ) {
                         Sleep( 1000 );
                         continue;
